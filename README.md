@@ -1,5 +1,10 @@
 # SSSP.kt — Single‑Source Shortest Paths for Kotlin Multiplatform
 
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Gradle](https://img.shields.io/badge/Gradle-9.0.0-blue?logo=gradle)](https://gradle.org)
+[![Version](https://img.shields.io/maven-central/v/com.dayanruben/sssp)][mavenCentral]
+[![License](https://img.shields.io/github/license/dayanruben/sssp-kt)][license]
+
 A fast, lightweight Kotlin Multiplatform library to compute single‑source shortest path (SSSP) distances on directed graphs with non‑negative edge weights.
 
 - Smart algorithm selection: automatically uses classic Dijkstra for small graphs and a cache‑efficient BMSSP‑based routine for large graphs.
