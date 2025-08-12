@@ -154,3 +154,6 @@ Issues and pull requests are welcome! Please include:
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE).
+
+[mavenCentral]: https://search.maven.org/artifact/com.dayanruben/sssp
+[license]: LICENSE
