@@ -8,11 +8,20 @@ import kotlin.math.pow
 /**
  * Public API: Single-Source Shortest Paths.
  * Exposes only the main algorithm entry point, keeping helpers internal.
+ *
+ * @param dijkstraFallbackThreshold If n <= this threshold, the algorithm falls back to Dijkstra.
+ * Defaults to 64 to retain previous behavior.
  */
-fun singleSourceShortestPaths(n: Int, adj: List<List<Pair<Int, Double>>>, s: Int): DoubleArray {
+fun singleSourceShortestPaths(
+    n: Int,
+    adj: List<List<Pair<Int, Double>>>,
+    s: Int,
+    dijkstraFallbackThreshold: Int = 64,
+): DoubleArray {
     // For small graphs, use a straightforward Dijkstra to ensure correctness and avoid
     // edge-case sensitivity of the advanced BMSSP implementation on tiny inputs.
-    if (n <= 64) return dijkstra(n, adj, s)
+    val threshold = if (dijkstraFallbackThreshold < 0) 0 else dijkstraFallbackThreshold
+    if (n <= threshold) return dijkstra(n, adj, s)
 
     val log2n = ln(n.toDouble()) / ln(2.0)
     val k = floor(log2n.pow(1.0 / 3.0)).toInt()
