@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "sssp-kt"
-include(":library")
+include(":sssp")
