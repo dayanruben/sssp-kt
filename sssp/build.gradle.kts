@@ -64,8 +64,8 @@ mavenPublishing {
         url = "https://github.com/dayanruben/sssp-kt/"
         licenses {
             license {
-                name = "BSD-3-Clause"
-                url = "https://opensource.org/license/bsd-3-clause"
+                name = "The Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
                 distribution = "repo"
             }
         }
