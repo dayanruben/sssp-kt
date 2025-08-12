@@ -142,6 +142,10 @@ Issues and pull requests are welcome! Please include:
 - performance considerations for algorithmic changes
 
 
+## References
+
+- The BMSSP-inspired implementation and cache-efficient design draw inspiration from the following paper: https://arxiv.org/pdf/2504.17033
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE).
