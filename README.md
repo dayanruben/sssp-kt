@@ -1,6 +1,6 @@
 # SSSP.kt — Single‑Source Shortest Paths for Kotlin Multiplatform
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Gradle](https://img.shields.io/badge/Gradle-9.0.0-blue?logo=gradle)](https://gradle.org)
 [![Version](https://img.shields.io/maven-central/v/com.dayanruben/sssp)][mavenCentral]
 [![License](https://img.shields.io/github/license/dayanruben/sssp-kt)][license]
@@ -18,7 +18,7 @@ Artifacts are published with the following coordinates:
 
 - Group: `com.dayanruben`
 - Artifact: `sssp`
-- Version: `0.1.0`
+- Version: `0.2.0`
 
 Gradle (Kotlin DSL):
 
@@ -33,7 +33,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts (root or module)
 dependencies {
-    implementation("com.dayanruben:sssp:0.1.0")
+    implementation("com.dayanruben:sssp:0.2.0")
 }
 ```
 
@@ -50,7 +50,7 @@ dependencyResolutionManagement {
 
 // build.gradle
 dependencies {
-    implementation "com.dayanruben:sssp:0.1.0"
+    implementation "com.dayanruben:sssp:0.2.0"
 }
 ```
 
@@ -136,7 +136,7 @@ This is a Kotlin Multiplatform library with targets:
 
 ## Versioning
 
-This library follows semantic versioning as much as feasible for a small algorithmic library. See the Releases page for changes. Current version: 0.1.0.
+This library follows semantic versioning as much as feasible for a small algorithmic library. See the Releases page for changes.
 
 
 ## Contributing
