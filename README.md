@@ -18,7 +18,7 @@ Artifacts are published with the following coordinates:
 
 - Group: `com.dayanruben`
 - Artifact: `sssp`
-- Version: `0.1.0`
+- Version: `0.2.0`
 
 Gradle (Kotlin DSL):
 
@@ -33,7 +33,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts (root or module)
 dependencies {
-    implementation("com.dayanruben:sssp:0.1.0")
+    implementation("com.dayanruben:sssp:0.2.0")
 }
 ```
 
@@ -50,7 +50,7 @@ dependencyResolutionManagement {
 
 // build.gradle
 dependencies {
-    implementation "com.dayanruben:sssp:0.1.0"
+    implementation "com.dayanruben:sssp:0.2.0"
 }
 ```
 
@@ -136,7 +136,7 @@ This is a Kotlin Multiplatform library with targets:
 
 ## Versioning
 
-This library follows semantic versioning as much as feasible for a small algorithmic library. See the Releases page for changes. Current version: 0.1.0.
+This library follows semantic versioning as much as feasible for a small algorithmic library. See the Releases page for changes.
 
 
 ## Contributing
