@@ -1,6 +1,6 @@
 # SSSP.kt — Single‑Source Shortest Paths for Kotlin Multiplatform
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Gradle](https://img.shields.io/badge/Gradle-9.0.0-blue?logo=gradle)](https://gradle.org)
 [![Version](https://img.shields.io/maven-central/v/com.dayanruben/sssp)][mavenCentral]
 [![License](https://img.shields.io/github/license/dayanruben/sssp-kt)][license]
