@@ -18,7 +18,7 @@ Artifacts are published with the following coordinates:
 
 - Group: `com.dayanruben`
 - Artifact: `sssp`
-- Version: `0.2.0`
+- Version: `0.3.0`
 
 Gradle (Kotlin DSL):
 
@@ -33,7 +33,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts (root or module)
 dependencies {
-    implementation("com.dayanruben:sssp:0.2.0")
+    implementation("com.dayanruben:sssp:0.3.0")
 }
 ```
 
@@ -50,7 +50,7 @@ dependencyResolutionManagement {
 
 // build.gradle
 dependencies {
-    implementation "com.dayanruben:sssp:0.2.0"
+    implementation "com.dayanruben:sssp:0.3.0"
 }
 ```
 
