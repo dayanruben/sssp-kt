@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.dayanruben"
-version = "0.3.0"
+version = libs.versions.sssp.get()
 
 kotlin {
     jvm()
@@ -25,15 +25,11 @@ kotlin {
     linuxX64()
 
     sourceSets {
-        val commonMain by getting {
-            dependencies {
-                //put your multiplatform dependencies here
-            }
+        commonMain.dependencies {
+            //put your multiplatform dependencies here
         }
-        val commonTest by getting {
-            dependencies {
-                implementation(libs.kotlin.test)
-            }
+        commonTest.dependencies {
+            implementation(libs.kotlin.test)
         }
     }
 }
