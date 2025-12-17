@@ -1,4 +1,5 @@
 [versions]
+sssp = "0.4.0"
 agp = "8.13.2"
 kotlin = "2.3.0"
 android-minSdk = "24"
@@ -9,6 +10,6 @@ mavenPublish = "0.35.0"
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
-androidLibrary = { id = "com.android.library", version.ref = "agp" }
+androidKmpLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 vanniktech-mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
