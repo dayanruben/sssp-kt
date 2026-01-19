@@ -1,7 +1,7 @@
 [versions]
 sssp = "0.4.0"
 agp = "9.0.0"
-kotlin = "2.3.20-Beta1"
+kotlin = "2.3.10-RC"
 android-minSdk = "24"
 android-compileSdk = "36"
 mavenPublish = "0.36.0"
