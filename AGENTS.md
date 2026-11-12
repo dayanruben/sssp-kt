@@ -4,7 +4,7 @@ Kotlin Multiplatform library for single-source shortest paths. Use this guide to
 
 ## Project Structure & Modules
 - Root Gradle project declares plugins; the main module is `sssp`.
-- Core code lives in `sssp/src/commonMain/kotlin` (algorithms, heaps, transforms). Platform-specific folders (`jvmMain`, `androidMain`, `iosMain`, `linuxX64Main`) stay thin and currently contain only target scaffolding.
+- Core code lives in `sssp/src/commonMain/kotlin` (algorithms, heaps, transforms). There are no platform-specific source sets; the targets (`jvm`, `android`, `iosX64`, `iosArm64`, `iosSimulatorArm64`, `linuxX64`) are declared in `sssp/build.gradle.kts` and all build from `commonMain`.
 - Cross-platform tests sit in `sssp/src/commonTest/kotlin`; target-specific tests can live in `*/src/<target>Test/kotlin` if needed.
 - Dependency and version pins are centralized in `gradle/libs.versions.toml`. Build outputs land in `build/` (root and module).
 
